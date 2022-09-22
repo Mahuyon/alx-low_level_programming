@@ -5,7 +5,7 @@
  *
  * @n: The input number as an integer
  *
- * Return: 1 for lowercase character. 0 for the rest.
+ * Return: absolute value
  */
 int _abs(int n)
 {
