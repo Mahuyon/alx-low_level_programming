@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int bet[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int bet[] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int y, z;
 
 	z = sizeof(bet) / sizeof(int);
