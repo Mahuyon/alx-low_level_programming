@@ -14,7 +14,9 @@ char *string_toupper(char *s)
 	while (*(s + eya) != '\0')
 	{
 		if ((*(s + eya) >= 97) && (*(s + eya) <= 122))
-		 *(s + eya) =  *(s + eya) - 32;
+		{
+		       	*(s + eya) =  *(s + eya) - 32;
+		}
 		eya++;
 	}
 
