@@ -25,7 +25,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		return (0);
 	r[temp + 1] = '\0';
 	x--, y--, size_r--;
-	nu = *(n1 + x) -48, nue = *(n2 + y) -48;
+	nu = *(n1 + x) - 48, nue = *(n2 + y) - 48;
 	while (temp >= 0)
 	{
 		op = nu + nue + eya;
