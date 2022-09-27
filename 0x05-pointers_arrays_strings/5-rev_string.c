@@ -16,6 +16,7 @@ void rev_string(char *s)
 			break;
 		eya++;
 	}
+	str = s;
 
 	for (i = 0; i < (eya - 1); i++)
 	{
