@@ -7,7 +7,7 @@
  */
 int _atoi(char *s)
 {
-	unsigned int eya = 0, size = 0, oi = 0; kan = 1, y = 1, i;
+	unsigned int eya = 0, size = 0, oi = 0, kan = 1, y = 1, i;
 
 	while (*(s + eya) != '\0')
 	{
