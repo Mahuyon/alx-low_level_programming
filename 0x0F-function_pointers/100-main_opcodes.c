@@ -20,8 +20,7 @@ int main(int argc, char *argv[])
 	}
 
 	eya = atoi(argv[1]);
-
-	if (eya < 0)   
+	if (eya < 0)
 	{
 		printf("Error\n");
 		exit(2);
